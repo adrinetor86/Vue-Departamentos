@@ -56,6 +56,7 @@ export default {
     }
   },
 
+
   mounted(){
     service.getDepartamentos().then(response =>{
     this.departamentos = response;
