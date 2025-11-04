@@ -27,6 +27,10 @@
             Editar
           </router-link>
 
+          <router-link :to="'/delete/'+departamento.numero" class="btn btn-danger">
+            Delete Com
+          </router-link>
+
           <button @click="borrarDepartamento(departamento.numero)" class="btn btn-secondary">Delete</button>
         </td>
       </tr>
